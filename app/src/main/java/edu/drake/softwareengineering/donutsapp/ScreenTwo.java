@@ -1,9 +1,13 @@
 package edu.drake.softwareengineering.donutsapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
 
 public class ScreenTwo extends AppCompatActivity {
 
@@ -11,6 +15,27 @@ public class ScreenTwo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen_two);
+
+        Button gpsButton = (Button) findViewById(R.id.gpsButton);
+        gpsButton.setOnClickListener(new View.OnClickListener() {
+                                         @Override
+                                         public void onClick(View v) {
+                                             Toast.makeText(getApplicationContext(), "Address Set By GPS", Toast.LENGTH_SHORT).show();
+                                             sendToScreenThree();
+                                         }
+                                     });
+        Button submitAddress = (Button) findViewById(R.id.submitAddressButton);
+        submitAddress.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View v) {
+                                            sendToScreenThree();
+                                        }
+                                    });
+    }
+
+    public void sendToScreenThree() {
+        Intent intent = new Intent(this,ScreenThree.class);
+        startActivity(intent);
     }
 
     @Override
