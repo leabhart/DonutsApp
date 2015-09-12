@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/screen_two_instructions"
-        android:id="@+id/textView"
+        android:id="@+id/screenTwoInstructions"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -24,28 +24,29 @@
         android:layout_height="wrap_content"
         android:inputType="textPostalAddress"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/addressInput"
         android:layout_marginTop="56dp"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/screenTwoInstructions"
         android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:id="@+id/imageView"
+        android:id="@+id/gpsButton"
         android:src="@drawable/gpsicon"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/screenTwoInstructions2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:contentDescription="@string/gpsButton" />
+        android:contentDescription="@string/gpsButton"
+        android:clickable="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/screen_two_instructions2"
-        android:id="@+id/textView2"
-        android:layout_below="@+id/editText"
+        android:id="@+id/screenTwoInstructions2"
+        android:layout_below="@+id/addressInput"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp" />
 </RelativeLayout>
