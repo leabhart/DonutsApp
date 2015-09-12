@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="edu.drake.softwareengineering.donutsapp.ScreenTwo">
+    tools:context="edu.drake.softwareengineering.donutsapp.ScreenTwo"
+    android:background="@color/screenBackground">
 
     <TextView
         android:layout_width="wrap_content"
