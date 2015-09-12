@@ -2,5 +2,7 @@
     <string name="app_name">DonutsApp</string>
 
     <string name="action_settings">Settings</string>
-    <string name="title_activity_screen_two">ScreenTwo</string>
+    <string name="title_activity_screen_two">Find Closest Store</string>
+    <string name="screen_two_instructions">Enter an address to get directions to the closest store</string>
+    <string name="screen_two_instructions2">Or use your current location</string>
 </resources>
