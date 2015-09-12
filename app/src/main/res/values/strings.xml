@@ -7,4 +7,8 @@
     <string name="screen_two_instructions2">Or use your current location</string>
     <string name="gpsButton">gpsButton</string>
     <string name="submitAddressButton">Submit Address</string>
+
+    <string name="main_title">Donuts!</string>
+    <string name="month_donut_title">Doughnut of the month:</string>
+    <string name="month_donut">Raspberry cream</string>
 </resources>
