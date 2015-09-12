@@ -24,7 +24,13 @@ public class ScreenTwo extends AppCompatActivity {
                                              sendToScreenThree();
                                          }
                                      });
-
+        Button submitAddress = (Button) findViewById(R.id.submitAddressButton);
+        submitAddress.setOnClickListener(new View.OnClickListener() {
+                                        @Override
+                                        public void onClick(View v) {
+                                            sendToScreenThree();
+                                        }
+                                    });
     }
 
     public void sendToScreenThree() {

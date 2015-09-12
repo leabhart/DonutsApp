@@ -6,4 +6,5 @@
     <string name="screen_two_instructions">Enter an address to get directions to the closest store</string>
     <string name="screen_two_instructions2">Or use your current location</string>
     <string name="gpsButton">gpsButton</string>
+    <string name="submitAddressButton">Submit Address</string>
 </resources>

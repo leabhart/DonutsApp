@@ -34,11 +34,11 @@
         android:layout_height="75dp"
         android:id="@+id/gpsButton"
         android:src="@drawable/gpsicon"
-        android:layout_below="@+id/screenTwoInstructions2"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
         android:contentDescription="@string/gpsButton"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_below="@+id/screenTwoInstructions2"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,7 +46,16 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/screen_two_instructions2"
         android:id="@+id/screenTwoInstructions2"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/submitAddressButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submitAddressButton"
+        android:id="@+id/submitAddressButton"
         android:layout_below="@+id/addressInput"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp" />
+        android:clickable="true" />
 </RelativeLayout>
