@@ -15,7 +15,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="43dp" />
+        android:layout_marginTop="43dp"
+        android:gravity="center_horizontal"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -34,7 +35,8 @@
         android:src="@drawable/gpsicon"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="29dp" />
+        android:layout_marginTop="29dp"
+        android:contentDescription="@string/gpsButton" />
 
     <TextView
         android:layout_width="wrap_content"
