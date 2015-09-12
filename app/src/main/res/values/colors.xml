@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="screenBackground">LTGRAY</color>
+    <color name="screenBackground">#e5caf2</color>
 
 
 
