@@ -35,8 +35,8 @@ public class ScreenTwo extends AppCompatActivity {
     }
 
     public void sendToScreenThree() {
-        //Intent intent = new Intent(this,ScreenThree.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this,ScreenThree.class);
+        startActivity(intent);
     }
 
     @Override

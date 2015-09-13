@@ -24,6 +24,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="edu.drake.softwareengineering.donutsapp.ScreenOne" />
         </activity>
+        <activity
+            android:name=".ScreenThree"
+            android:label="@string/title_activity_screen_three"
+            android:parentActivityName=".ScreenTwo" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.drake.softwareengineering.donutsapp.ScreenTwo" />
+        </activity>
     </application>
 
 </manifest>

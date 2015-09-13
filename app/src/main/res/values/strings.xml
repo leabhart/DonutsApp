@@ -11,4 +11,7 @@
     <string name="main_title">Donuts!</string>
     <string name="month_donut_title">Doughnut of the month:</string>
     <string name="month_donut">Raspberry cream</string>
+    <string name="title_activity_screen_three">Store Location</string>
+
+    <string name="get_donut">Get your donuts soon!</string>
 </resources>
