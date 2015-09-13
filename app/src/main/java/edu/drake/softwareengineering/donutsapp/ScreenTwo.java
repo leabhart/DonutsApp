@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class ScreenTwo extends AppCompatActivity {
@@ -16,7 +17,7 @@ public class ScreenTwo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen_two);
 
-        Button gpsButton = (Button) findViewById(R.id.gpsButton);
+        ImageView gpsButton = (ImageView) findViewById(R.id.gpsButton);
         gpsButton.setOnClickListener(new View.OnClickListener() {
                                          @Override
                                          public void onClick(View v) {
@@ -34,8 +35,8 @@ public class ScreenTwo extends AppCompatActivity {
     }
 
     public void sendToScreenThree() {
-        Intent intent = new Intent(this,ScreenThree.class);
-        startActivity(intent);
+        //Intent intent = new Intent(this,ScreenThree.class);
+        //startActivity(intent);
     }
 
     @Override
