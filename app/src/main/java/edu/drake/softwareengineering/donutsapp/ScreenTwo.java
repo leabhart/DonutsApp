@@ -29,14 +29,15 @@ public class ScreenTwo extends AppCompatActivity {
         submitAddress.setOnClickListener(new View.OnClickListener() {
                                         @Override
                                         public void onClick(View v) {
+                                            Toast.makeText(getApplicationContext(), "Address Set By User", Toast.LENGTH_SHORT).show();
                                             sendToScreenThree();
                                         }
                                     });
     }
 
     public void sendToScreenThree() {
-        //Intent intent = new Intent(this,ScreenThree.class);
-        //startActivity(intent);
+        Intent intent = new Intent(this,ScreenThree.class);
+        startActivity(intent);
     }
 
     @Override
